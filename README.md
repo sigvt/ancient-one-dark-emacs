@@ -24,5 +24,6 @@ A color theme for Emacs based off uetchy's Ancient One Dark theme for VSCode, us
 
 ### Screenshots
 
+![Ruby mode](./screenshots/one-dark-ruby-mode.png)
 
-
+![HN Reader](./screenshots/one-dark-hn-reader.png)
