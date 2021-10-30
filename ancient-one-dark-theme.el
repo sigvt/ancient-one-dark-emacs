@@ -3,8 +3,9 @@
 ;; Copyright (C) 2021 , Daniils Petrovs
 
 ;; Author: Daniils Petrovs
+;; Homepage: https://github.com/DaniruKun/ancient-one-dark-emacs-theme
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 
@@ -25,6 +26,8 @@
 
 ;;; Commentary:
 ;; A color theme for Emacs based off uetchy's Ancient One Dark theme for VSCode, using a color palette similar to Ninomae Ina'nis from Hololive English.
+;;;; Credits:
+;; This theme's color palette was heavily inspired by uethy's original theme for VSCode.
 ;;; Code:
 
  (deftheme ancient-one-dark)
@@ -89,15 +92,15 @@
         `(org-level-2 ((,class (:bold nil :foreground ,fg3))))
         `(org-level-3 ((,class (:bold t :foreground ,fg4))))
         `(org-level-4 ((,class (:bold nil :foreground ,bg4))))
-        `(org-date ((,class (:underline t :foreground ,var) )))
         `(org-footnote  ((,class (:underline t :foreground ,fg4))))
         `(org-link ((,class (:underline t :foreground ,type ))))
         `(org-special-keyword ((,class (:foreground ,func))))
-        `(org-block ((,class (:foreground ,fg3))))
         `(org-quote ((,class (:inherit org-block :slant italic))))
         `(org-verse ((,class (:inherit org-block :slant italic))))
         `(org-todo ((,class (:box (:line-width 1 :color ,bg1) :foreground ,keyword :bold t))))
         `(org-done ((,class (:box (:line-width 1 :color ,bg1) :bold t :foreground ,bg4))))
+        `(org-block ((,class (:foreground ,fg3))))
+        `(org-date ((,class (:underline t :foreground ,var))))
         `(org-warning ((,class (:underline t :foreground ,warning))))
         `(org-agenda-structure ((,class (:weight bold :foreground ,fg3 :box (:color ,fg4) :background ,bg3))))
         `(org-agenda-date ((,class (:foreground ,var :height 1.1 ))))
@@ -251,8 +254,7 @@
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,fg2))))
         `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-        `(jde-java-font-lock-number-face ((t (:foreground ,var))))
-        )
+        `(jde-java-font-lock-number-face ((t (:foreground ,var)))))
   ;; emacs >= 26.1
   (when (>= emacs-major-version 26)
     (custom-theme-set-faces
@@ -269,9 +271,7 @@
      `(tab-line-tab ((,class (:inherit tab-line))))
      `(tab-line-tab-inactive ((,class (:inherit tab-line :foreground ,comment))))
      `(tab-line-tab-current  ((,class (:background ,bg4 :foreground ,fg1 :box (:line-width 4 :color ,bg4)))))
-     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1)))))))
-
-   )
+     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1))))))))
 
 ;;;###autoload
 (when load-file-name
