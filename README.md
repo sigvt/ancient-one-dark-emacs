@@ -7,11 +7,12 @@
 </p>
 
 <p align="center">
+<a href="https://melpa.org/#/ancient-one-dark-theme"><img alt="MELPA" src="https://melpa.org/packages/ancient-one-dark-theme-badge.svg"/></a>
 <a href="https://github.com/ianpan870102/wilmersdorf-emacs-theme"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance"></a>
 <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="GPL License"></a>
 </p>
 
-<p align="center">An Emacs theme with an old-school vibe</p>
+<p align="center">An Emacs theme with an ancient, mysterious vibe.</p>
 
 <p align="center">Inspired by the original <a href="https://marketplace.visualstudio.com/items?itemName=uetchy.ancient-one-dark">Ancient One Dark theme</a>.</p>
 
