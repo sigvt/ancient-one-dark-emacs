@@ -28,3 +28,11 @@ A color theme for Emacs based off uetchy's Ancient One Dark theme for VSCode, us
 ![Ruby mode](./screenshots/one-dark-ruby-mode.png)
 
 ![HN Reader](./screenshots/one-dark-hn-reader.png)
+
+## Contributing
+
+### Reporting issues
+
+Found a design glitch? Have ideas to improve the theme? Please [open an issue](https://github.com/holodata/ancient-one-dark-emacs/issues) on GitHub, or join `#ancient-one-dark` channel on [holodata Discord](https://holodata.org/discord).
+
+Make sure to include a screenshot of the issue, and also run `describe-mode` and try to specify which face looks wrong.
