@@ -19,15 +19,23 @@
 <br/>
 <br/>
 
-### About
+## About
 
 A color theme for Emacs based off uetchy's Ancient One Dark theme for VSCode, using a color palette similar to Ninomae Ina'nis from Hololive English.
 
-### Screenshots
+## Screenshots
 
 ![Ruby mode](./screenshots/one-dark-ruby-mode.png)
 
 ![HN Reader](./screenshots/one-dark-hn-reader.png)
+
+## Installation
+
+The easiet way is to install from MELPA:
+
+```
+M-x package-install ancient-one-dark-theme
+```
 
 ## Contributing
 
