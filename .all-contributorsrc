@@ -1,0 +1,25 @@
+{
+  "projectName": "ancient-one-dark-emacs",
+  "projectOwner": "holodata",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 50,
+  "commit": false,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "DaniruKun",
+      "name": "Daniils Petrovs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5202322?v=4",
+      "profile": "https://github.com/DaniruKun",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
